@@ -4,7 +4,7 @@ import csv
 import categorymap as cm
 
 category_map = cm.category_map()
-mypath = 'datafiles/'
+mypath = '../datafiles/'
 
 def get_files(path):
     return [f for f in listdir(path) if isfile(join(path, f))]
@@ -75,11 +75,10 @@ def get_updated_data(file_data):
             updated_data.append(line)
     return updated_data
     
-# files = get_files(mypath)
-# file_data = get_filedata(files, mypath)
-# updated_data = get_updated_data(file_data)
-'''
+files = get_files(mypath)
+file_data = get_filedata(files, mypath)
+updated_data = get_updated_data(file_data)
+
 with open("all_transactions.csv", "w+") as my_csv:
     csv_writer = csv.writer(my_csv, delimiter=',')
     csv_writer.writerows(updated_data)
-'''
