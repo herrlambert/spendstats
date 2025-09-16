@@ -79,6 +79,6 @@ files = get_files(mypath)
 file_data = get_filedata(files, mypath)
 updated_data = get_updated_data(file_data)
 
-with open("all_transactions.csv", "w+") as my_csv:
+with open("../datafiles/all_transactions.csv", "w+") as my_csv:
     csv_writer = csv.writer(my_csv, delimiter=',')
     csv_writer.writerows(updated_data)
