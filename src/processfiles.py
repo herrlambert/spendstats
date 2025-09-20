@@ -1,8 +1,10 @@
 import os
 import pandas as pd
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), 'datafiles')
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), 'outputfiles')
+# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+DATA_DIR = os.path.join(BASE_DIR, 'datafiles')
+OUTPUT_DIR = os.path.join(BASE_DIR, 'outputfiles')
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'combined_output.csv')
 
 def main():
