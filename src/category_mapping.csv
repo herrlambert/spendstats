@@ -1,273 +1,422 @@
 ﻿match_string,category_value
-costco whse,groceries
-costco gas,transportation
-pcc,groceries
-ctrl mkt,groceries
-trader joe,groceries
-asian family,groceries
-camp,family
-schlpay,school
-fred-meyer,groceries
-barber shop,family
-swansons nursery,home
-membership,family
-bistro,restaurant
-restaurant,restaurant
-bar ,restaurant
-pub ,restaurant
-pizza,restaurant
-sushi,restaurant
-verizon,home
-amzn mktp,home
-qfc,groceries
-salon ,family
-grill ,restaurant
-safeway,groceries
-albertson,groceries
-starbucks,restaurant
-alaska air,transportation
-netflix,home
-disneyplus,home
-arco,transportation
-home depot,home
-hardware,home
-parking,transportation
-metropolitan mkt,groceries
-tutta bella,restaurant
-target,family
-pink door,restaurant
-wsdot,transportation
-boo han,groceries
-nordstrom,family
-orca,transportation
-taqueria,restaurant
-dollar tree,family
-lowes,home
-bartell drug,family
-walgreen,family
-at&t,home
-xfinity,home
-wholefds,groceries
-mollie stones,groceries
-chef wang,restaurant
-silver house,restaurant
-inn ,lifestyle
-amazon fresh,groceries
-gainsbourg,restaurant
-74th street,restaurant
-76,transportation
-book store,family
-foresma,family
-fastrak,transportation
-true value,home
-csc serviceworks,home
-in-n-out,restaurant
-rei ,family
-ken's market,groceries
-valero,transportation
-big time,restaurant
-GAS & SHOP,transportation
-AURORA SUPER SAVER,groceries
-RAZZIS,restaurant
-TOFU HOUSE,restaurant
-FRAN'S CHOCOLATES,family
-SCOUTING,family
-SMOKEY'S ELLENSBURG,restaurant
-WORLEY,family
-IHOP,restaurant
-THEATER,lifestyle
-OR PARKS,family
-A&C SUPPLY,family
-CAFFE LADRO,restaurant
-MISS PHO,restaurant
-BAKESHOP,restaurant
-ROQUETTE,lifestyle
-THE CROCODILE,lifestyle
-BUTCHER & BAKER,restaurant
-LUPO,restaurant
-haggen,restaurant
-dutch bros,restaurant
-shell oil,transportation
-daeho kalbijjim,restaurant
-chamber music,lifestyle
-gandi,lifestyle
-market 541,transportation
-lumen fieldseattle,lifestyle
-university book,family
-dsquared hospitality,restaurant
-ted brown,family
-recycled cycles,family
-prost tavern,restaurant
-big pot,restaurant
-nordiska,family
-arsheed brothers,restaurant
-jjs fish house,restaurant
-pharmacy,family
-exxon aj food mart,groceries
-pilot_,transportation
-skagit gen str,groceries
-arlo technologies,home
-seattle park,family
-burritos,restaurant
-pastry,restaurant
-theatre,lifestyle
-shrees gas,transportation
-espresso,restaurant
-friend derek's,restaurant
-tpd wedgwood,restaurant
-alibris,family
-amazon digi,amazon_digital
-amazon mktpl,amazon_marketplace
-amazon prime,amazon_prime
-amazon reta,amazon retail
-oak tree 6,lifestyle
-mariners,lifestyle
-apple store,family
-apple.com,lifestyle
-attic projects,home
+costco whse,1_groceries
+costco gas,3_transportation
+pcc,1_groceries
+ctrl mkt,1_groceries
+trader joe,1_groceries
+asian family,1_groceries
+camp,5-family
+schlpay,5-family
+fred-meyer,1_groceries
+barber shop,5-family
+swansons nursery,6-home
+membership,5-family
+bistro,2_restaurant
+restaurant,2_restaurant
+bar ,2_restaurant
+pub ,2_restaurant
+pizza,2_restaurant
+sushi,2_restaurant
+verizon,6-home
+amzn mktp,6-home
+qfc,1_groceries
+salon ,5-family
+grill ,2_restaurant
+safeway,1_groceries
+albertson,1_groceries
+starbucks,2_restaurant
+alaska air,3_transportation
+netflix,6-home
+disneyplus,6-home
+arco,3_transportation
+home depot,6-home
+hardware,6-home
+parking,3_transportation
+metropolitan mkt,1_groceries
+tutta bella,2_restaurant
+target,5-family
+pink door,2_restaurant
+wsdot,3_transportation
+boo han,1_groceries
+nordstrom,5-family
+orca,3_transportation
+taqueria,2_restaurant
+dollar tree,5-family
+lowes,6-home
+bartell drug,5-family
+walgreen,5-family
+at&t,6-home
+xfinity,6-home
+wholefds,1_groceries
+mollie stones,1_groceries
+chef wang,2_restaurant
+silver house,2_restaurant
+inn ,4_lifestyle
+amazon fresh,1_groceries
+gainsbourg,2_restaurant
+74th street,2_restaurant
+76,3_transportation
+book store,5-family
+foresma,5-family
+fastrak,3_transportation
+true value,6-home
+csc serviceworks,6-home
+in-n-out,2_restaurant
+rei ,5-family
+ken's market,1_groceries
+valero,3_transportation
+big time,2_restaurant
+GAS & SHOP,3_transportation
+AURORA SUPER SAVER,1_groceries
+RAZZIS,2_restaurant
+TOFU HOUSE,2_restaurant
+FRAN'S CHOCOLATES,5-family
+SCOUTING,5-family
+SMOKEY'S ELLENSBURG,2_restaurant
+WORLEY,5-family
+IHOP,2_restaurant
+THEATER,4_lifestyle
+OR PARKS,5-family
+A&C SUPPLY,5-family
+CAFFE LADRO,2_restaurant
+MISS PHO,2_restaurant
+BAKESHOP,2_restaurant
+ROQUETTE,4_lifestyle
+THE CROCODILE,4_lifestyle
+BUTCHER & BAKER,2_restaurant
+LUPO,2_restaurant
+haggen,2_restaurant
+dutch bros,2_restaurant
+shell oil,3_transportation
+daeho kalbijjim,2_restaurant
+chamber music,4_lifestyle
+gandi,4_lifestyle
+market 541,3_transportation
+lumen field,4_lifestyle
+university book,5-family
+dsquared hospitality,2_restaurant
+ted brown,5-family
+recycled cycles,5-family
+prost tavern,2_restaurant
+big pot,2_restaurant
+nordiska,5-family
+arsheed brothers,2_restaurant
+jjs fish house,2_restaurant
+pharmacy,5-family
+exxon aj food mart,1_groceries
+pilot_,3_transportation
+skagit gen str,1_groceries
+arlo technologies,6-home
+seattle park,5-family
+burritos,2_restaurant
+pastry,2_restaurant
+theatre,4_lifestyle
+shrees gas,3_transportation
+espresso,2_restaurant
+friend derek's,2_restaurant
+tpd wedgwood,2_restaurant
+alibris,5-family
+amazon,amazon
+oak tree 6,4_lifestyle
+mariners,4_lifestyle
+apple store,5-family
+apple.com,4_lifestyle
+attic projects,6-home
 autopay,card_payment
-aveda,family
-thecommons,family
-ballard mkt,groceries
-barnes&noble,family
-auto repair,transportation
-bethany,giving
-betterwoman,family
-swissgear,family
-boy scouts,family
-brown bear,transportation
-ballardyouthsc,family
-cannon beach,lifestyle
-cats meow,lifestyle
-central market,groceries
-chefstore,family
-chevron,transportation
-choice deli,restaurant
-city lights,family
-leavenworth,lifestyle
-bakery,restaurant
-newyorker,lifestyle
-coding with kids,family
-annual renewal,family
-cozy nut,restaurant
-cph liability,family
-crepevine,restaurant
-crocs inc,family
-daiso,family
-dicks sporting,family
-seattlemariner,lifestyle
-discoverlakechelan,family
-indian nepali,restaurant
-friends of,giving
-galileo learning,family
-game guru,family
-goodwill,family
-gsuite,family
-halcyon,restaurant
-hmart,groceries
-hyak,family
-ikea,family
-indian sweets,groceries
-fish spot,family
-jazzalley,restaurant
-string instrumen,family
-katsu burger,restaurant
-kinokuniya,family
-kitchen basics,family
-la conasupo,restaurant
-violin,family
-little thai,restaurant
-love's,transportation
-matheson urban gi,family
-north cascades,family
-snapdoodle,family
-maruta,groceries
-muchas gracias,restaurant
-appliance liquidseattle,home
-nintendo,family
-nytimes,family
-old navy,family
-o'reilly,transportation
-pacha,restaurant
-pagliacci,restaurant
-paypal,paypal
-queen anne vision,family
-recreation.gov,family
-rei.com,family
-roku for peacock,family
-san francisco giants,family
-aquarium,lifestyle
-seattle symphony,lifestyle
-snoqualmie,lifestyle
-archiemcpheestore,family
-drmtlgy,family
-holden village,family
-vionlins,family
-maelove,family
-skincare,family
-shopbaleen,family
-banya,lifestyle
-ben & jerry's,restaurant
-better-2-gether,family
-bobacat,restaurant
-card exchange,family
-daybreak records,family
-garden blossoms,family
-home cake decorating,family
-lake union civic,family
-levantine cuisine,restaurant
-lucy's books,family
-mercer island boys,family
-my friend,restaurant
-phinney books,family
-port gamble,lifestyle
-rainy day dinner,restaurant
-retreat greenlake,restaurant
-somisomi,restaurant
-tres bros,restaurant
-uji time,restaurant
-via margutta,lifestyle
-subscriptions,family
-summit at snoqualmie,lifestyle
-surfcrest,lifestyle
-mta meter mta,transportation
-tcktweb,lifestyle
-little store,lifestyle
-museum fo flight,family
-the ridge seattle,restaurant
-therapy stores,family
-tires.com,transportation
-tjmaxx,family
-san francisco symp,lifestyle
-better homes,family
-family handyman,family
-food & wine,family
-t-mobile park,lifestyle
-toms fish & chips,restaurant
-total wine,groceries
-tpd 5th,restaurant
-rhein haus,restaurant
-cafe,restaurant
-nutty squirrel,restaurant
-tacos,restaurant
-couth buzzard,family
-royal room,restaurant
-uniqlo,family
-uwajimaya,groceries
-vinces it,restaurant
-vzrwrlss,family
-parksreservationsweb,family
-secretary of state,family
-wayfair,family
-woodlandsoccer,family
-costco,groceries
-yuenluistudio,family
-vzwrlss,family
-lenovo,family
-boldtypetickewa,family
-humanitix,family
-shar music,family
-6crickets,family
-krispy,restaurant
-impark,transportation
-aamft,family
+aveda,5-family
+thecommons,5-family
+ballard mkt,1_groceries
+barnes,5-family
+auto repair,3_transportation
+bethany,7-giving
+betterwoman,5-family
+swissgear,5-family
+boy scouts,5-family
+brown bear,3_transportation
+ballardyouthsc,5-family
+cannon beach,4_lifestyle
+cats meow,4_lifestyle
+central market,1_groceries
+chefstore,5-family
+chevron,3_transportation
+choice deli,2_restaurant
+city lights,5-family
+leavenworth,4_lifestyle
+bakery,2_restaurant
+newyorker,4_lifestyle
+coding with kids,5-family
+annual renewal,5-family
+cozy nut,2_restaurant
+cph liability,5-family
+crepevine,2_restaurant
+crocs inc,5-family
+daiso,5-family
+dicks sporting,5-family
+seattlemariner,4_lifestyle
+discoverlakechelan,5-family
+indian nepali,2_restaurant
+friends of,7-giving
+galileo learning,5-family
+game guru,5-family
+goodwill,5-family
+gsuite,5-family
+halcyon,2_restaurant
+hmart,1_groceries
+hyak,5-family
+ikea,5-family
+indian sweets,1_groceries
+fish spot,5-family
+jazzalley,2_restaurant
+string instrumen,5-family
+katsu burger,2_restaurant
+kinokuniya,5-family
+kitchen basics,5-family
+la conasupo,2_restaurant
+violin,5-family
+little thai,2_restaurant
+love's,3_transportation
+matheson urban gi,5-family
+north cascades,5-family
+snapdoodle,5-family
+maruta,1_groceries
+muchas gracias,2_restaurant
+appliance,6-home
+nintendo,5-family
+nytimes,5-family
+old navy,5-family
+o'reilly,3_transportation
+pacha,2_restaurant
+pagliacci,2_restaurant
+paypal,5-family
+queen anne vision,5-family
+recreation.gov,5-family
+rei.com,5-family
+peacock,5-family
+san francisco giants,5-family
+aquarium,4_lifestyle
+seattle symphony,4_lifestyle
+snoqualmie,4_lifestyle
+archiemcpheestore,5-family
+drmtlgy,5-family
+holden village,5-family
+vionlins,5-family
+maelove,5-family
+skincare,5-family
+shopbaleen,5-family
+banya,4_lifestyle
+ben & jerry's,2_restaurant
+better-2-gether,5-family
+bobacat,2_restaurant
+card exchange,5-family
+daybreak records,5-family
+garden blossoms,5-family
+home cake decorating,5-family
+lake union civic,5-family
+levantine cuisine,2_restaurant
+lucy's books,5-family
+mercer island boys,5-family
+my friend,2_restaurant
+phinney books,5-family
+port gamble,4_lifestyle
+rainy day dinner,2_restaurant
+retreat greenlake,2_restaurant
+somisomi,2_restaurant
+tres bros,2_restaurant
+uji time,2_restaurant
+via margutta,4_lifestyle
+subscriptions,5-family
+summit at snoqualmie,4_lifestyle
+surfcrest,4_lifestyle
+mta meter mta,3_transportation
+tcktweb,4_lifestyle
+little store,4_lifestyle
+museum fo flight,5-family
+the ridge seattle,2_restaurant
+therapy stores,5-family
+tires.com,3_transportation
+tjmaxx,5-family
+san francisco symp,4_lifestyle
+better homes,5-family
+family handyman,5-family
+food & wine,5-family
+t-mobile park,4_lifestyle
+toms fish & chips,2_restaurant
+total wine,1_groceries
+tpd 5th,2_restaurant
+rhein haus,2_restaurant
+cafe,2_restaurant
+nutty squirrel,2_restaurant
+tacos,2_restaurant
+couth buzzard,5-family
+royal room,2_restaurant
+uniqlo,5-family
+uwajimaya,1_groceries
+vinces it,2_restaurant
+vzrwrlss,5-family
+parksreservationsweb,5-family
+secretary of state,5-family
+wayfair,5-family
+woodlandsoccer,5-family
+costco,1_groceries
+yuenluistudio,5-family
+vzwrlss,5-family
+lenovo,5-family
+boldtypetickewa,5-family
+humanitix,5-family
+shar music,5-family
+6crickets,5-family
+krispy,2_restaurant
+impark,3_transportation
+aamft,5-family
+swatch,5-family
+peet's,2_restaurant
+himawari,2_restaurant
+parkpaybyphon,3_transportation
+il fornaio,2_restaurant
+starbird chicken,2_restaurant
+arbuckle,2_restaurant
+crate & barrel,5-family
+cityfish,1_groceries
+sur la table,5-family
+robot vs sloth,5-family
+sunny honey,5-family
+reverb.com,5-family
+nasai teriyaki,2_restaurant
+eBay,5-family
+turntables,5-family
+burgermaster,2_restaurant
+univ wash athletics,4_lifestyle
+amazon,5-family
+xmas tree,5-family
+narrative coffee,2_restaurant
+russell's,2_restaurant
+leon coffee,2_restaurant
+dickssportinggoods,5-family
+pecangifts,5-family
+best buy,5-family
+king noodle,2_restaurant
+asian market,1_groceries
+breathless,4_lifestyle
+poke,2_restaurant
+philz,2_restaurant
+seattle school district,5-family
+grocery outlet,1_groceries
+queen anne dispatch,5-family
+optum,5-family
+ballard reuse,5-family
+sheetmusicplus,5-family
+molly moon's,2_restaurant
+ups store,5-family
+edmonds mus,5-family
+discount-tire,3_transportation
+wsferries,3_transportation
+dbmoveathon,7-giving
+earshot,4_lifestyle
+sea young engineers,5-family
+local gyro & burger,2_restaurant
+prodigygame.com,5-family
+chuck's hop shop,2_restaurant
+kindle,5-family
+camille sata,5-family
+shell,3_transportation
+coconut kenny's,2_restaurant
+lodge whistler,2_restaurant
+grocery store,1_groceries
+la bocca,2_restaurant
+evo village sports,4_lifestyle
+shultzys,2_restaurant
+prime video,5-family
+whiskijack,4_lifestyle
+eclipse hat shop,4_lifestyle
+lioness,2_restaurant
+ulta,5-family
+all vovo,3_transportation
+OMD,4_lifestyle
+terramar brewing,2_restaurant
+alpine hut,5-family
+little coney,2_restaurant
+sip and ship,5-family
+family donut,2_restaurant
+walmart.com,5-family
+thai ocean,2_restaurant
+caffe umbria,2_restaurant
+what a meals,2_restaurant
+mezza luna,2_restaurant
+maido,5-family
+hallmark,5-family
+dept of health,5-family
+stow lake,4_lifestyle
+presidio,4_lifestyle
+raley's,4_lifestyle
+la cabana,2_restaurant
+ballard collision,3_transportation
+uber,3_transportation
+safelite,3_transportation
+blue ridge club,5-family
+lennys produce,1_groceries
+chateau ste,4_lifestyle
+picolinos,2_restaurant
+pho shizzle,2_restaurant
+jazzercise,5-family
+embassysuites,4_lifestyle
+etsy,5-family
+than brothers,2_restaurant
+paris plumbing,6-home
+bagel oasis,2_restaurant
+brooks sports,5-family
+news garden,5-family
+brooks trailhead,5-family
+stranger tickets,4_lifestyle
+dimitriou's,4_lifestyle
+wing dome,2_restaurant
+bratwurst haus,2_restaurant
+cyccommunitysailing,5-family
+sfo cat cora,5-family
+plaza gourmet,5-family
+scandinavian specialties,1_groceries
+brush the salon,4_lifestyle
+toast mi,2_restaurant
+7-eleven,1_groceries
+mcleods fish,2_restaurant
+teriyaki,2_restaurant
+red bento,2_restaurant
+patty's llc,2_restaurant
+uofid,2_restaurant
+mcdonald's,2_restaurant
+homewisedocs,6-home
+bugis,2_restaurant
+mallory paint,6-home
+zwilling,5-family
+allmodrn,6-home
+sherwin,6-home
+ifs institute,5-family
+allianz,4_lifestyle
+harry connick,4_lifestyle
+north transfer,6-home
+gottman,5-family
+jai thai,2_restaurant
+notarize,5-family
+pegasus,2_restaurant
+centralcinema,4_lifestyle
+saucony.com,5-family
+charlie dang,5-family
+girl scouts,7-giving
+highdive,2_restaurant
+mamma melina,2_restaurant
+wing luke,4_lifestyle
+dough zone,2_restaurant
+siff.net,4_lifestyle
+kizuki,2_restaurant
+heuk hwa dang,5-family
+cama beach,4_lifestyle
+handmade dumplings,2_restaurant
+rupee,2_restaurant
+herkimer,2_restaurant
+siff cinema,4_lifestyle
+fischer plumbing,6-home
+city people,5-family
+fecal zoo,6-home
+ydz,5-family
+thornton,4_lifestyle
+pilot 233,3_transportation
+olivers twist,2_restaurant
