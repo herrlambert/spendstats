@@ -15,12 +15,15 @@ def add_category_column(df):
     if 'Date' in df.columns:
         date_idx = df.columns.get_loc('Date')
         df.insert(date_idx + 1, 'Category', '')
+        df.insert(date_idx + 2, 'Subcategory', '')
         # For each mapping, assign category if match_string is in Description
         for _, row in mapping_df.iterrows():
             match_string = str(row['match_string']).strip('"').lower()
             category_value = str(row['category_value']).strip('"')
+            subcategory_value = str(row.get('subcategory_value', '')).strip('"')
             mask = df['Description'].str.lower().str.contains(match_string, na=False)
             df.loc[mask, 'Category'] = category_value
+            df.loc[mask, 'Subcategory'] = subcategory_value
         # Assign 'unknown' to any rows where Category is still empty
         df['Category'] = df['Category'].replace('', 'unknown')
     return df
